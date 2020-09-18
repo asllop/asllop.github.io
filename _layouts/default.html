@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang={{ page.language }}>
+<html lang={{ site.lang }}>
 <head>
     <title>{{ page.title }}</title>
     <meta charset="UTF-8"/>
-    <link rel="stylesheet" type="text/css" href="css/styles.css" />
-    <script src="js/main.js"></script>
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl_root }}/css/styles.css" />
+    <script src="{{ site.baseurl_root }}/js/main.js"></script>
+    {% seo %}
 </head>
 <body>
     {% include menu.html %}

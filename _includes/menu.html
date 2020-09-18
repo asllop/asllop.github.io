@@ -1,31 +1,31 @@
 <nav class="menu">
     <div class="option_dropdown">
-        <div class="option_button">Menu</div>
+        <div class="option_button">{% t titles.menu %}</div>
         <div class="option_content">
             <div class="option_inner_content">
-                <a href=".">Main</a>
-                <a href="bio.html">Bio</a>
-                <a href="articles.html">Articles</a>
-                <a href="projects.html">Projects</a>
-                <a href="writings.html">Writings</a>
+                <a href=".">{% t titles.main %}</a>
+                <a href="bio.html">{% t titles.bio %}</a>
+                <a href="articles.html">{% t titles.articles %}</a>
+                <a href="projects.html">{% t titles.projects %}</a>
+                <a href="writings.html">{% t titles.writings %}</a>
             </div>
         </div>
     </div>
     <div class="option_dropdown">
-        <div class="option_button">Language</div>
+        <div class="option_button">{% t titles.language %}</div>
         <div class="option_content">
             <div class="option_inner_content">
-                <a>Català</a>
-                <a>English</a>
+                <a href="/ca/">Català</a>
+                <a href="/">English</a>
             </div>
         </div>
     </div>
     <div class="option_dropdown">
-        <div class="option_button">Theme</div>
+        <div class="option_button">{% t titles.theme %}</div>
         <div class="option_content">
             <div class="option_inner_content">
-                <a onclick="setDayTheme()">Day</a>
-                <a onclick="setNightTheme()">Night</a>
+                <a onclick="setDayTheme()">{% t titles.day %}</a>
+                <a onclick="setNightTheme()">{% t titles.night %}</a>
             </div>
         </div>
     </div>
