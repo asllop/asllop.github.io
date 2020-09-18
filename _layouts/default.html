@@ -12,5 +12,15 @@
     <section class="content">
         {{ content }}
     </section>
+
+    <script>
+        let theme = localStorage.getItem("theme");
+        if (theme == "night") {
+            setNightTheme()
+        }
+        else {
+            setDayTheme()
+        }
+    </script>
 </body>
 </html>
