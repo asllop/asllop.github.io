@@ -156,3 +156,7 @@ body {
         height: 20px;
     }
 }
+
+.content_center {
+    text-align: center;
+}
