@@ -100,7 +100,7 @@ body {
     display: none;
     position: absolute;
     background-color: #A8A8A8;
-    min-width: 160px;
+    min-width: 180px;
     z-index: 1;
     padding: 5px;
 }
@@ -168,7 +168,7 @@ a.link:link, a.link:visited, a.link:hover, a.link:active {
         border: 2px solid;
     }
 
-    .vga_window {
+    .special_square {
         border: 6px double;
     }
 
@@ -187,6 +187,6 @@ a.link:link, a.link:visited, a.link:hover, a.link:active {
     }
 
     .ascii_banner {
-        font-size: 6px;
+        font-size: 8px;
     }
 }

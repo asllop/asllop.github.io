@@ -1,27 +1,52 @@
 <div class="square normal_square">
-    Benvinguts a la meva pàgina web personal. Em dic Andreu Santarén Llop (aka asllop), soc originari de la bella comarca del Maresme, nascut a mitjans de la dècada dels 80 i faig d'Enginyer de Software. Aquesta pàgina va sobretot d'això últim, però també hi podreu trobar altres coses, especialment a la secció <a class="link" href="writings.html">{% t titles.writings %}</a>.
-</div>
-
-<div class="v_separator"></div>
-
-<div class="square special_square">
-    Hola malparits.
+    Benvinguts a la meva pàgina web personal. Em dic Andreu Santarén Llop (aka asllop), soc originari de la bella comarca del Maresme, nascut a mitjans de la dècada dels 80 i faig d'Enginyer de Software. Aquesta pàgina va sobretot d'això últim, però també hi podreu trobar altres coses, especialment a la secció <a class="link" href={{ site.data.paths.writings }}>{% t titles.writings %}</a>.
+    <br>
+    Vaig començar a connectar a la Internet a finals dels 90 i el meu primer ordinador va ser un IBM-PC amb MS-DOS, fets que em van influir i traumatitzar per igual. L'estil d'aquesta web prova de mostrar la sensació que era ser un geek de la informàtica en aquell temps :)
 </div>
 
 <div class="v_separator"></div>
 
 <fieldset class="special_square">
-    <legend class="square_title">Títol</legend>
+    <legend class="square_title">Seccions</legend>
     <div>
-        Hola malparits.
+        Totes les seccions són accesibles a través del Menú, de totes maneres aquí hi ha enllaços a les més importants acompanyats d'una descripció.
+        <br><br>
+        <a class="link" href={{ site.data.paths.bio }}>{% t titles.bio %}</a>:<br>Descripció del meu currículum i altres coses que he fet al llarg de la meva vida.
+        <br><br>
+        <a class="link" href={{ site.data.paths.articles }}>{% t titles.articles %}</a>:<br>Articles sobre diverses temàtiques, especialment desenvolupament de software i ciència de dades.
+        <br><br>
+        <a class="link" href={{ site.data.paths.projects }}>{% t titles.projects %}</a>:<br>Alguns dels projectes en els que he treballat o estic treballant.
+        <br><br>
+        <a class="link" href={{ site.data.paths.writings }}>{% t titles.writings %}</a>:<br>Històries, contes curts i reflexions. Tots ells escrits en català.
+    </div>
+</fieldset>
+
+<div class="v_separator"></div>
+
+<fieldset class="special_square">
+    <legend class="square_title">Enllaços</legend>
+    <div>
+        Enllaços d'algunes empreses i organitzacions amb les que simpatitzo o col·laboro.
+        <br><br>
+        - <a href={{ site.data.paths.esf }} class="link" target="_blank">Enginyeria Sense Fronteres</a>
+        <br>
+        - <a href={{ site.data.paths.pxll }} class="link" target="_blank">Plataforma per la llengua</a>
+        <br>
+        - <a href={{ site.data.paths.olpc }} class="link" target="_blank">One Laptop per Child</a>
+        <br>
+        - <a href={{ site.data.paths.mozilla_fund }} class="link" target="_blank">Mozilla Foundation</a>
+        <br>
+        - <a href={{ site.data.paths.omnium }} class="link" target="_blank">Omnium Cultural</a>
+        <br>
+        - <a href={{ site.data.paths.vilaweb }} class="link" target="_blank">VilaWeb</a>
     </div>
 </fieldset>
 
 <div class="v_separator"></div>
 
 <fieldset class="normal_square">
-    <legend class="square_title">Títol</legend>
+    <legend class="square_title">Compatibilitat</legend>
     <div>
-        Hola malparits.
+        Aquesta pàgina ha estat testada amb els navegadors Firefox, Chrome i Safari. Si fas servir Explorer i tens problemes et recomano que t'instal·lis <a href={{ site.data.paths.firefox_ca }} class="link" target="_blank">Firefox</a> i si pots <a href={{ site.data.paths.donate_mozilla_ca }} class="link" target="_blank">col·laborar</a> en el projecte Mozilla, encara millor.
     </div>
 </fieldset>
