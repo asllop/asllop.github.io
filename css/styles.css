@@ -76,9 +76,6 @@ body {
 .content {
     margin: 15px;
     margin-top: 30px;
-
-    /*Only to show the scroll bar*/
-    height: 1500px;
 }
 
 .option_dropdown {
@@ -123,6 +120,18 @@ body {
     color: #A8A8A8;
 }
 
+.content_center {
+    text-align: center;
+}
+
+.ascii_banner {
+    font-size: 10px;
+    display: inline-block;
+    margin: auto;
+}
+
+
+
 /* Mobile rules */
 
 @media only screen and (max-width: 768px) {
@@ -155,8 +164,8 @@ body {
     .v_separator {
         height: 20px;
     }
-}
 
-.content_center {
-    text-align: center;
+    .ascii_banner {
+        font-size: 6px;
+    }
 }
