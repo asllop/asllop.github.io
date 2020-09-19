@@ -82,6 +82,8 @@ body {
     padding-left: 15px;
     padding-right: 15px;
     padding-bottom: 15px;
+    /*min-height: -webkit-fill-available;*/
+    min-height: calc(100% - 60px);
     background-color: darkblue;
 }
 
@@ -144,11 +146,12 @@ body {
     body {
         font-size: 30px;
     }
-
+    
     .content {
         padding-top: 70px;
         margin-left: 0;
         margin-right: 0;
+        min-height: calc(100% - 90px);
     }
 
     .menu {
