@@ -29,28 +29,28 @@ body {
     background-color: black !important; 
 }
 
-.vga_square {
+.square {
     padding: 10px;
     margin: 0px;
 }
 
-.vga_window {
+.normal_square {
+    border: 1px solid;
+    color: ghostwhite;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.special_square {
     border: 4px double;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
 
-.vga_window_title {
+.square_title {
     border: none;
     margin-left: 1em;
     padding: 0.2em 0.8em
-}
-
-.vga_banner {
-    border: 1px solid;
-    color: ghostwhite;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
 }
 
 .v_separator {
@@ -138,6 +138,11 @@ body {
     display: inline-block;
     margin: auto;
     text-align: left;
+}
+
+/* unvisited link */
+a.link:link, a.link:visited, a.link:hover, a.link:active {
+    color: yellow;
 }
 
 /* Mobile rules */
