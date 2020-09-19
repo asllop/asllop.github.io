@@ -128,9 +128,8 @@ body {
     font-size: 10px;
     display: inline-block;
     margin: auto;
+    text-align: left;
 }
-
-
 
 /* Mobile rules */
 
