@@ -29,6 +29,10 @@ body {
     background-color: black !important; 
 }
 
+.highlight {
+    color: ghostwhite;
+}
+
 .square {
     padding: 10px;
     margin: 0px;
