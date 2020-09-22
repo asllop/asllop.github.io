@@ -12,3 +12,11 @@ function setDayTheme() {
 
 // This method is used by the onclick that fires "hover" css rules in mobile
 function justClick() {}
+
+function showAddress(element_id) {
+    let a = "andreu";
+    let b = "santaren";
+    let c = "gmail";
+    let d = "com"
+    document.getElementById(element_id).textContent = a + "." + b + "@" + c + "." + d;
+}
