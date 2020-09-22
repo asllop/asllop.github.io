@@ -10,3 +10,15 @@
 </div>
 
 <div class="v_separator"></div>
+
+{% for post in site.posts %}
+  {% if post.postCategory == "writing" %}
+    <div class="square normal_square">
+      <a class="link" href="{{ post.url }}">{{ post.postTitle }} - {{ post.postDate }}</a>
+      <div class="v_separator"></div>
+      <div>{{ post.postFragment }}</div>
+    </div>
+
+    <div class="v_separator"></div>
+  {% endif %}
+{% endfor %}
