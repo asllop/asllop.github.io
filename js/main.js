@@ -14,9 +14,9 @@ function setDayTheme() {
 function justClick() {}
 
 function showAddress(element_id) {
-    let a = "andreu";
-    let b = "santaren";
-    let c = "gmail";
-    let d = "com"
-    document.getElementById(element_id).textContent = a + "." + b + "@" + c + "." + d;
+    let a = ["a", "n", "d", "r", "e", "u"];
+    let b = ["s", "a", "n", "t", "a", "r", "e", "n"];
+    let c = ["g", "m", "a", "i", "l"];
+    let d = ["c", "o", "m"]
+    document.getElementById(element_id).textContent = a.join("") + "." + b.join("") + String.fromCharCode(64) + c.join("") + "." + d.join("");
 }
