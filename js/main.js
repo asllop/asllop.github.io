@@ -18,5 +18,5 @@ function showAddress(element_id) {
     let b = ["s", "a", "n", "t", "a", "r", "e", "n"];
     let c = ["g", "m", "a", "i", "l"];
     let d = ["c", "o", "m"]
-    document.getElementById(element_id).textContent = a.join("") + "." + b.join("") + String.fromCharCode(64) + c.join("") + "." + d.join("");
+    document.getElementById(element_id).textContent = a.join("") + "." + b.join("") + " " + String.fromCharCode(64) + " " + c.join("") + "." + d.join("");
 }
