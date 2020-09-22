@@ -10,3 +10,22 @@
 </div>
 
 <div class="v_separator"></div>
+
+<div class="square special_square">
+  Articles diversos, especialment desenvolupament de software. però també hi podreu trobar sobre enginyeria en general i altres temes.
+</div>
+
+<div class="v_separator"></div>
+<div class="v_separator"></div>
+
+{% for post in site.posts %}
+  {% if post.postCategory == "article" %}
+    <div class="square normal_square">
+      <a class="link" href="{{ post.url }}">{{ post.postTitle }} - {{ post.postDate }}</a>
+      <div class="v_separator"></div>
+      <div>{{ post.postFragment }}</div>
+    </div>
+
+    <div class="v_separator"></div>
+  {% endif %}
+{% endfor %}
