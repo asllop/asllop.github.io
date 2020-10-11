@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang=ca>
+<head>
+    <title></title>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" type="text/css" href="/css/styles.css" />
+    <script src="/js/main.js"></script>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>404</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="404" />
+<meta property="og:locale" content="ca" />
+<link rel="canonical" href="http://localhost:4000/404.html" />
+<meta property="og:url" content="http://localhost:4000/404.html" />
+<script type="application/ld+json">
+{"headline":"404","@type":"WebPage","url":"http://localhost:4000/404.html","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+</head>
+<body onclick="justClick()">
+    <nav class="menu">
+    <div class="option_dropdown" onclick="justClick()">
+        <div class="option_button">Menú</div>
+        <div class="option_content">
+            <div class="option_inner_content">
+                <a href=/>Principal</a>
+                <a href=/bio.html>Bio</a>
+                <!--<a href=/articles.html>Articles</a>-->
+                <a href=/projects.html>Projectes</a>
+                <a href=/writings.html>Escrits</a>
+            </div>
+        </div>
+    </div>
+    <!--
+    <div class="option_dropdown" onclick="justClick()">
+        <div class="option_button">Idioma</div>
+        <div class="option_content" id="option_language">
+            <div class="option_inner_content">
+                <a href="/">Català</a>
+                <a href="/en/">English</a>
+            </div>
+        </div>
+    </div>
+    -->
+    <div class="option_dropdown" onclick="justClick()">
+        <div class="option_button">Tema</div>
+        <div class="option_content" id="option_theme">
+            <div class="option_inner_content">
+                <a onclick="setDayTheme()" href="">Dia</a>
+                <a onclick="setNightTheme()" href="">Nit</a>
+            </div>
+        </div>
+    </div>
+</nav>
+    <section id='body_section' class="content">
+        <div class="content_center">
+<pre class="ascii_banner">
+              _
+             | |
+             | |===( )   //////
+             |_|   |||  | o o|
+                    ||| ( c  )                  ____
+                     ||| \= /                  ||   \_
+                      ||||||                   ||     |
+                      ||||||                ...||__/|-"
+                      ||||||             __|________|__
+                        |||             |______________|
+                        |||             || ||      || ||
+                        |||             || ||      || ||
+------------------------|||-------------||-||------||-||-------
+                        |__>            || ||      || ||
+</pre>
+
+<div class="v_separator"></div>
+<div class="v_separator"></div>
+<div class="v_separator"></div>
+
+<div>
+    ERROR 404: PAGE NOT FOUND!
+</div>
+</div>
+    </section>
+
+    <script>
+        let theme = localStorage.getItem("theme");
+        if (theme == "night") {
+            setNightTheme()
+        }
+        else {
+            setDayTheme()
+        }
+    </script>
+</body>
+</html>
