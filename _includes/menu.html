@@ -1,19 +1,19 @@
 <nav class="menu">
     <div class="option_dropdown" onclick="justClick()">
-        <div class="option_button">{% t titles.menu %}</div>
+        <div class="option_button">{% translate titles.menu %}</div>
         <div class="option_content">
             <div class="option_inner_content">
-                <a href={{ site.baseurl }}/>{% t titles.main %}</a>
-                <a href={{ site.baseurl }}/{{ site.data.paths.bio }}>{% t titles.bio %}</a>
-                <!--<a href={{ site.baseurl }}/{{ site.data.paths.articles }}>{% t titles.articles %}</a>-->
-                <a href={{ site.baseurl }}/{{ site.data.paths.projects }}>{% t titles.projects %}</a>
-                <a href={{ site.baseurl }}/{{ site.data.paths.writings }}>{% t titles.writings %}</a>
+                <a href={{ site.baseurl }}/>{% translate titles.main %}</a>
+                <a href={{ site.baseurl }}/{{ site.data.paths.bio }}>{% translate titles.bio %}</a>
+                <!--<a href={{ site.baseurl }}/{{ site.data.paths.articles }}>{% translate titles.articles %}</a>-->
+                <a href={{ site.baseurl }}/{{ site.data.paths.projects }}>{% translate titles.projects %}</a>
+                <a href={{ site.baseurl }}/{{ site.data.paths.writings }}>{% translate titles.writings %}</a>
             </div>
         </div>
     </div>
     <!--
     <div class="option_dropdown" onclick="justClick()">
-        <div class="option_button">{% t titles.language %}</div>
+        <div class="option_button">{% translate titles.language %}</div>
         <div class="option_content" id="option_language">
             <div class="option_inner_content">
                 <a href="/">Català</a>
@@ -23,11 +23,11 @@
     </div>
     -->
     <div class="option_dropdown" onclick="justClick()">
-        <div class="option_button">{% t titles.theme %}</div>
+        <div class="option_button">{% translate titles.theme %}</div>
         <div class="option_content" id="option_theme">
             <div class="option_inner_content">
-                <a onclick="setDayTheme()" href="">{% t titles.day %}</a>
-                <a onclick="setNightTheme()" href="">{% t titles.night %}</a>
+                <a onclick="setDayTheme()" href="">{% translate titles.day %}</a>
+                <a onclick="setNightTheme()" href="">{% translate titles.night %}</a>
             </div>
         </div>
     </div>
