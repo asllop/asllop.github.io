@@ -150,5 +150,31 @@
             setDayTheme()
         }
     </script>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-analytics.js"></script>
+
+    <script>
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    var firebaseConfig = {
+        apiKey: "AIzaSyCDkAtR_Oa8NcEPGXcvUA6lnxRuM3F6cq8",
+        authDomain: "andreuwebsite-d8cf7.firebaseapp.com",
+        databaseURL: "https://andreuwebsite-d8cf7.firebaseio.com",
+        projectId: "andreuwebsite-d8cf7",
+        storageBucket: "andreuwebsite-d8cf7.appspot.com",
+        messagingSenderId: "895909138401",
+        appId: "1:895909138401:web:0078ca6edb72002ab24ca0",
+        measurementId: "G-X8NDB0BS60"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+    </script>
+
 </body>
 </html>
