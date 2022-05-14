@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="14mm"
+   height="65mm"
+   viewBox="0 0 14 65"
+   version="1.1"
+   id="svg1008"
+   inkscape:version="1.1.2 (b8e25be8, 2022-02-05)"
+   sodipodi:docname="torre.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1010"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.64052329"
+     inkscape:cx="-157.68357"
+     inkscape:cy="476.95377"
+     inkscape:window-width="1312"
+     inkscape:window-height="969"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1"
+     width="209mm" />
+  <defs
+     id="defs1005" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.0916596px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 6.6473669,1.0687122 0.0649,2.853275 -0.32424,0.453929 0.0648,0.843013 0.0649,0.324237 -0.0649,0.453929 0.0649,0.518777 0.0648,1.296943 0.0649,2.7235788 -0.45393,0.77817 -0.19454,0.58362 v 6.22533 l -1.42664,0.90786 -1.42663,1.55633 -1.03755,1.23209 -0.259393,0.71332 -0.778166,18.35174 1.296939,0.32423 1.29694,0.71332 1.55634,0.45394 0.71331,0.12969 -0.12969,20.88086 3.7611304,0.12969 -0.5836204,-20.88086 h 1.4914801 l 1.29695,-0.19454 0.58362,-0.38908 0.32424,-1.03756 0.0649,-1.29694 -0.25939,-0.90786 0.0649,-0.90786 -0.19455,-2.01026 -0.25938,-1.1024 0.12969,-0.97271 -0.12969,-0.90786 v -1.2321 l -0.1297,-0.51877 0.32424,-0.38909 -0.32424,-1.29694 0.1297,-0.9727 -0.32424,-0.51878 -0.12969,-1.29694 -0.1297,-1.88057 0.0648,-1.16725 v -1.2321 l -0.19454,-1.68602 -0.32423,-0.32424 -0.58363,-1.29694 -0.5187797,-0.84301 -0.5187704,-0.71332 -0.32424,-0.32423 -0.25939,-0.64848 -0.32423,-0.12969 -0.19455,0.90786 -0.19454,-1.68603 -0.19454,-4.08537 -0.38908,-0.58362 -0.25939,-3.0478128 0.12969,-0.713319 -0.19454,-0.907863 -0.0649,-0.583623 v -1.037553 l 0.1297,-0.713317 -0.25939,-0.129696 V 0.93901917 Z"
+       id="path269" />
+  </g>
+</svg>
