@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang=ca>
+<head>
+    <title>Principal</title>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" type="text/css" href="/css/styles.css" />
+    <script src="/js/main.js"></script>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>titles.main</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="titles.main" />
+<meta property="og:locale" content="ca" />
+<link rel="canonical" href="http://localhost:4000/" />
+<meta property="og:url" content="http://localhost:4000/" />
+<script type="application/ld+json">
+{"headline":"titles.main","@type":"WebSite","url":"http://localhost:4000/","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+</head>
+<body onclick="justClick()">
+    <nav class="menu">
+    <div class="option_dropdown" onclick="justClick()">
+        <div class="option_button">Menú</div>
+        <div class="option_content">
+            <div class="option_inner_content">
+                <a href=/>Principal</a>
+                <a href=/bio.html>Bio</a>
+                <!--<a href=/articles.html>Articles</a>-->
+                <a href=/projects.html>Projectes</a>
+                <a href=/writings.html>Escrits</a>
+            </div>
+        </div>
+    </div>
+    <!--
+    <div class="option_dropdown" onclick="justClick()">
+        <div class="option_button">Idioma</div>
+        <div class="option_content" id="option_language">
+            <div class="option_inner_content">
+                <a href="/">Català</a>
+                <a href="/en/">English</a>
+            </div>
+        </div>
+    </div>
+    -->
+    <div class="option_dropdown" onclick="justClick()">
+        <div class="option_button">Tema</div>
+        <div class="option_content" id="option_theme">
+            <div class="option_inner_content">
+                <a onclick="setDayTheme()" href="">Dia</a>
+                <a onclick="setNightTheme()" href="">Nit</a>
+            </div>
+        </div>
+    </div>
+</nav>
+    <section id='body_section' class="content">
+        <div class="content_center ">
+<pre class="ascii_banner">
+ ________  ________  ___       ___       ________  ________   
+|\   __  \|\   ____\|\  \     |\  \     |\   __  \|\   __  \  
+\ \  \|\  \ \  \___|\ \  \    \ \  \    \ \  \|\  \ \  \|\  \ 
+ \ \   __  \ \_____  \ \  \    \ \  \    \ \  \\\  \ \   ____\
+  \ \  \ \  \|____|\  \ \  \____\ \  \____\ \  \\\  \ \  \___|
+   \ \__\ \__\____\_\  \ \_______\ \_______\ \_______\ \__\   
+    \|__|\|__|\_________\|_______|\|_______|\|_______|\|__|   
+             \|_________|                                     
+</pre>
+</div>
+
+<div class="v_separator"></div>
+<div class="v_separator"></div>
+
+<div class="square normal_square">
+    Benvinguts a la meva pàgina web personal. Em dic Andreu Santarén Llop (a.k.a. asllop), soc originari de la bella comarca del Maresme, nascut a mitjans dels 80 i faig d'Enginyer de Software. Aquesta pàgina va sobretot d'això últim, però també hi podreu trobar altres coses, especialment a la secció <a class="link" href=writings.html>Escrits</a>.
+    <br><br>
+    Vaig començar a córrer per Internet a finals dels 90 i el meu primer ordinador va ser un IBM PC (clònic) amb MS-DOS, fets que em van influir profundament. L'estil d'aquesta web prova de mostrar la sensació que era ser un geek de la informàtica en aquell temps.
+</div>
+
+<div class="v_separator"></div>
+
+<fieldset class="special_square">
+    <legend class="square_title">Seccions</legend>
+    <div>
+        Totes les seccions són accesibles a través del Menú, però de totes maneres aquí hi ha enllaços a les més importants acompanyats d'una descripció.
+        <br><br>
+        <a class="link" href=bio.html>Bio</a>:<br>Descripció del meu currículum i altres coses que he fet al llarg de la meva vida.
+        <br><br>
+        <!--
+        <a class="link" href=articles.html>Articles</a>:<br>Articles sobre diverses temàtiques, especialment desenvolupament de software i ciència de dades.
+        <br><br>
+        -->
+        <a class="link" href=projects.html>Projectes</a>:<br>Alguns dels projectes en els quals he treballat o estic treballant.
+        <br><br>
+        <a class="link" href=writings.html>Escrits</a>:<br>Històries, contes curts i reflexions. Tots ells escrits en català.
+    </div>
+</fieldset>
+
+<div class="v_separator"></div>
+
+<fieldset class="special_square">
+    <legend class="square_title">Contacte</legend>
+    <div>
+        Podeu seguir les meves activitats al <a href="https://github.com/asllop" class="link" target="_blank">Github</a> i <a href="https://twitter.com/AndreuLlop" class="link" target="_blank">Twitter</a>.
+        <br><br>
+        També em podeu contactar per correu electrònic a la següent adreça:
+        <br>
+        <a class="link" href="javascript:showAddress('addr_tag');" id="addr_tag">Premeu per veure l'adreça</a>
+    </div>
+</fieldset>
+
+<div class="v_separator"></div>
+
+<fieldset class="special_square">
+    <legend class="square_title">Enllaços</legend>
+    <div>
+        Un petit llistat d'algunes empreses i organitzacions amb les que simpatitzo o col·laboro.
+        <br><br>
+        - <a href=https://www.plataforma-llengua.cat/ class="link" target="_blank">Plataforma per la llengua</a>
+        <br>
+        - <a href=http://one.laptop.org/ class="link" target="_blank">One Laptop per Child</a>
+        <br>
+        - <a href=https://foundation.mozilla.org class="link" target="_blank">Mozilla Foundation</a>
+        <br>
+        - <a href=https://www.omnium.cat/ca/ class="link" target="_blank">Omnium Cultural</a>
+        <br>
+        - <a href=https://www.vilaweb.cat/ class="link" target="_blank">VilaWeb</a>
+        <br>
+        - <a href=https://www.jornalet.com/ class="link" target="_blank">Jornalet</a>
+    </div>
+</fieldset>
+
+<div class="v_separator"></div>
+
+<fieldset class="normal_square">
+    <legend class="square_title">Compatibilitat</legend>
+    <div>
+        Aquesta pàgina ha estat testada amb els navegadors Firefox, Chrome i Safari. Si fas servir Explorer no hauries de tenir problemes, però si els tens et recomano que t'instal·lis <a href=https://www.mozilla.org/ca/firefox/download/thanks/ class="link" target="_blank">Firefox</a> i si pots <a href=https://donate.mozilla.org/ca/?presets=50,30,20,10&amount=30&utm_source=andreu.website&utm_medium=referral&utm_content=nav&currency=eur class="link" target="_blank">col·laborar</a> amb el projecte Mozilla, encara millor.
+    </div>
+</fieldset>
+
+
+    </section>
+
+    <script>
+        let theme = localStorage.getItem("theme");
+        if (theme == "night") {
+            setNightTheme()
+        }
+        else {
+            setDayTheme()
+        }
+    </script>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-analytics.js"></script>
+
+    <script>
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    var firebaseConfig = {
+        apiKey: "AIzaSyCDkAtR_Oa8NcEPGXcvUA6lnxRuM3F6cq8",
+        authDomain: "andreuwebsite-d8cf7.firebaseapp.com",
+        databaseURL: "https://andreuwebsite-d8cf7.firebaseio.com",
+        projectId: "andreuwebsite-d8cf7",
+        storageBucket: "andreuwebsite-d8cf7.appspot.com",
+        messagingSenderId: "895909138401",
+        appId: "1:895909138401:web:0078ca6edb72002ab24ca0",
+        measurementId: "G-X8NDB0BS60"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+    </script>
+
+</body>
+</html>
