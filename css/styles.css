@@ -37,6 +37,17 @@ a.special {
     text-align: center;
 }
 
+.header_title {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: dashed;
+    border-color: black;
+}
+
 .body_section {
     line-height: 1.4;
 }
@@ -50,7 +61,7 @@ a.special {
 
 h1 {
     font-family: 'Courier New';
-    font-size: 18px;
+    font-size: 25px;
     font-weight: bold;
 }
 
@@ -71,7 +82,7 @@ h2 {
 
 @media screen and (max-width: 768px) {
     body {
-        font-size: 25px;
+        font-size: 20px;
     }
     
     .content {
@@ -79,19 +90,28 @@ h2 {
         margin-right: 1.5%;
     }
 
+    .header_title {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .body_section {
+        line-height: 1.7;
+    }
+
     .article_section {
         line-height: 1.6;
-        margin-left: 10%;
-        margin-right: 10%;
+        margin-left: 5%;
+        margin-right: 5%;
     }
 
     h1 {
-        font-size: 28px;
+        font-size: 25px;
     }
     
     
     h2 {
-        font-size: 25px;
+        font-size: 20px;
     }
 }
 
@@ -114,5 +134,9 @@ h2 {
     
     .content {
         background-color: black;
+    }
+
+    .header_title {
+        border-color: white;
     }
 }
