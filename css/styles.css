@@ -1,6 +1,5 @@
 /*TODO
 - Night theme.
-- Mobile styles.
 */
 
 body {
@@ -69,4 +68,33 @@ h2 {
     line-height: 1.6;
     margin-left: 15%;
     margin-right: 15%;
+}
+
+
+/* Mobile rules */
+
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 25px;
+    }
+    
+    .content {
+        margin-left: 1.5%;
+        margin-right: 1.5%;
+    }
+
+    .article_section {
+        line-height: 1.6;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+    
+    
+    h2 {
+        font-size: 25px;
+    }
 }
