@@ -1,7 +1,0 @@
-plugins:
-  - jekyll-seo-tag
-  - jekyll-multiple-languages-plugin
-
-languages: ["ca"]
-exclude_from_localizations: ["js", "font", "css"]
-default_locale_in_subfolder: false
