@@ -1,6 +1,3 @@
-/*TODO
-- Night theme.
-*/
 
 body {
     font-family: 'Courier New';
@@ -70,7 +67,6 @@ h2 {
     margin-right: 15%;
 }
 
-
 /* Mobile rules */
 
 @media screen and (max-width: 768px) {
@@ -96,5 +92,27 @@ h2 {
     
     h2 {
         font-size: 25px;
+    }
+}
+
+/* Dark mode rules */
+
+@media (prefers-color-scheme: dark) {
+    body {
+        color: white;
+        background-color: black;
+    }
+    
+    a {
+        color: white;
+    }
+    
+    a.special {
+        color: black;
+        background-color: rgb(71, 227, 84);
+    }
+    
+    .content {
+        background-color: black;
     }
 }
