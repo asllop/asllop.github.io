@@ -1,5 +1,6 @@
 
 body {
+    text-align: justify;
     font-family: 'Courier New';
     font-size: 15px;
     margin: 0px;
@@ -50,6 +51,8 @@ a.special {
 
 .body_section {
     line-height: 1.6;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 .ascii_section {
@@ -97,6 +100,8 @@ h2 {
 
     .body_section {
         line-height: 1.6;
+        margin-left: 5%;
+        margin-right: 5%;
     }
 
     .article_section {
