@@ -14,7 +14,7 @@
                 let b = ["s", "a", "n", "t", "a", "r", "e", "n"];
                 let c = ["g", "m", "a", "i", "l"];
                 let d = ["c", "o", "m"]
-                let z = a.join("") - "." - b.join("") - String.fromCharCode(64) - c.join("") - "." - d.join("");
+                let z = a.join("") + "." + b.join("") + String.fromCharCode(64) + c.join("") + "." + d.join("");
                 navigator.clipboard.writeText(z);
                 document.getElementById(element_id).textContent = "Copied!";
                 setInterval((element_id) => {
@@ -45,42 +45,42 @@
 
             <h2>## Personal projects</h2>
 
-            <a href="https://github.com/asllop/ize">IZE</a>: Work in progress.<br>
-            <b><i>OpenAVT</i></b>: Open source telemetry solution for audio and video applications.<br>
+            <a href="https://github.com/asllop/ize">IZE</a><br>Work in progress.<br>
+            <a>OpenAVT</a><br>Open source telemetry solution for audio and video applications.<br>
             &nbsp;&nbsp;- <a href="https://github.com/asllop/OpenAVT-Docs">Documentation</a><br>
             &nbsp;&nbsp;- <a href="https://github.com/asllop/OpenAVT-iOS">iOS & tvOS</a><br>
             &nbsp;&nbsp;- <a href="https://github.com/asllop/OpenAVT-Android">Android</a><br>
             &nbsp;&nbsp;- <a href="https://github.com/asllop/OpenAVT-JS">Web & Smart TVs</a><br>
-            <a href="https://github.com/asllop/HunkInfo">HunkInfo</a>: Amiga OS hunk binary format info tool.<br>
-            <a href="https://github.com/asllop/socarel">Socarel</a>: Generate, manipulate and traverse trees.<br>
-            <a href="https://github.com/asllop/tref">tref</a>: Plain text file format to describe trees in a human readable way.<br>
-            <a href="https://github.com/asllop/cond_utils">cond_utils</a>: Very simple Rust crate for evaluating conditions in a more legible way.<br>
-            <a href="https://github.com/asllop/RunPack">RunPack</a>: Small and modular scripting language written in ~1000 lines of Rust code, and designed to be embedded.<br>
-            <a href="https://github.com/asllop/unibox">Unibox</a>: Universal memory box for Rust.<br>
-            <a href="https://github.com/asllop/CSV-OLAP">CSV-OLAP</a>: Extremely simplistic OLAP tool for CSV files.<br>
-            <a href="https://github.com/asllop/NRSci">NRSci</a>: Python module to import data from New Relic and use it as Pandas data frames.<br>
-            <a href="https://github.com/asllop/iot-relic">IoT-Relic</a>: IoT experimental pipeline developed during a 48h hackathon organized by New Relic. Including a custom <a href="https://github.com/asllop/iot-relic/blob/main/NRLTP.md">protocol</a>.<br>
-            <a href="https://github.com/asllop/AppOS">AppOS</a>: Unfinished and abandoned. Unikernel written in C for microcontrollers and embedded systems in IoT applications.<br>
-            <a href="https://github.com/asllop/kstd">kstd</a>: Unfinished and abandoned. Unikernel written in Rust for IoT applications, aimed to offer Rust std lib on bare metal.<br>
+            <a href="https://github.com/asllop/HunkInfo">HunkInfo</a><br>Amiga OS hunk binary format info tool.<br>
+            <a href="https://github.com/asllop/socarel">Socarel</a><br>Generate, manipulate and traverse trees.<br>
+            <a href="https://github.com/asllop/tref">tref</a><br>Plain text file format to describe trees in a human readable way.<br>
+            <a href="https://github.com/asllop/cond_utils">cond_utils</a><br>Very simple Rust crate for evaluating conditions in a more legible way.<br>
+            <a href="https://github.com/asllop/RunPack">RunPack</a><br>Small and modular scripting language written in ~1000 lines of Rust code, and designed to be embedded.<br>
+            <a href="https://github.com/asllop/unibox">Unibox</a><br>Universal memory box for Rust.<br>
+            <a href="https://github.com/asllop/CSV-OLAP">CSV-OLAP</a><br>Extremely simplistic OLAP tool for CSV files.<br>
+            <a href="https://github.com/asllop/NRSci">NRSci</a><br>Python module to import data from New Relic and use it as Pandas data frames.<br>
+            <a href="https://github.com/asllop/iot-relic">IoT-Relic</a><br>IoT experimental pipeline developed during a 48h hackathon organized by New Relic. Including a custom <a href="https://github.com/asllop/iot-relic/blob/main/NRLTP.md">protocol</a>.<br>
+            <a href="https://github.com/asllop/AppOS">AppOS</a><br>Unfinished and abandoned. Unikernel written in C for microcontrollers and embedded systems in IoT applications.<br>
+            <a href="https://github.com/asllop/kstd">kstd</a><br>Unfinished and abandoned. Unikernel written in Rust for IoT applications, aimed to offer Rust std lib on bare metal.<br>
 
-            <h2>## Work projects</h2>
+            <h2>## Work projects (OSS only)</h2>
 
-            Only open source.<br><br>
-
-            <b><i>Video agents</i></b>: Telemetry solutions to monitor video players in various environments for New Relic.<br>
+            <a>Video agents</a><br>Telemetry solutions to monitor video players in various environments for New Relic.<br>
             &nbsp;&nbsp;- <a href="https://github.com/newrelic/video-agent-iOS">iOS</a><br>
             &nbsp;&nbsp;- <a href="https://github.com/newrelic/video-agent-android">Android</a><br>
             &nbsp;&nbsp;- <a href="https://github.com/newrelic/video-agent-roku">Roku</a><br>
             &nbsp;&nbsp;- <a href="https://github.com/newrelic/video-caf-js">Chromecast</a><br>
-            <a href="https://github.com/vectordotdev/vector/tree/master/src/sinks/new_relic">Vector.dev</a>: Contribution to DataDog's vector.dev tool. A sink component for New Relic. <br>
-            <a href="https://github.com/asllop/AKPickerView">AKPickerView</a>: Fork made for the WOO Sports iOS app.<br>
-            <a href="https://github.com/asllop/MARKRangeSlider">MARKRangeSlider</a>: Fork made for the WOO Sports iOS app.<br>
+            &nbsp;&nbsp;- <a href="https://github.com/newrelic/FireTV-Vega-Agent">Amazon Vega</a><br>
+            <a href="https://github.com/newrelic/newrelic-labs-sdk">Labs SDK</a><br>SDK to build New Relic integrations in Go, based on a previous private project I created.<br>
+            <a href="https://github.com/vectordotdev/vector/tree/master/src/sinks/new_relic">Vector sink</a><br>Contribution to DataDog's vector.dev tool. A sink component for New Relic. <br>
+            <a href="https://github.com/asllop/AKPickerView">AKPickerView</a><br>Fork made for the WOO Sports iOS app.<br>
+            <a href="https://github.com/asllop/MARKRangeSlider">MARKRangeSlider</a><br>Fork made for the WOO Sports iOS app.<br>
 
             <br>
 
             <h2># ARTICLES</h2>
 
-            <a href="https://newrelic.com/blog/nerdlog/how-to-monitor-roku">How to Monitor Roku Quality of Experience with New Relic</a><br>
+            - <a href="https://newrelic.com/blog/nerdlog/how-to-monitor-roku">How to Monitor Roku Quality of Experience with New Relic</a><br>
 
             <br>
 
@@ -89,9 +89,9 @@
             EN: Section in Catalan (my mother tongue) with tales, stories and thoughts I use to write.<br>
             CA: Secció en català, amb contes, històries i pensaments que de tant en tant escric.<br><br>
 
-            <a href="escrits/olor_durbanitat.html">Olor d'urbanitat</a><br>
-            <a href="escrits/quina_puta_merda_de_pais.html">Quina puta merda de país</a><br>
-            <a href="escrits/ideologia.html">Ideologia</a><br>
+            - <a href="escrits/olor_durbanitat.html">Olor d'urbanitat</a><br>
+            - <a href="escrits/quina_puta_merda_de_pais.html">Quina puta merda de país</a><br>
+            - <a href="escrits/ideologia.html">Ideologia</a><br>
 
             <br>
 

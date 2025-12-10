@@ -10,7 +10,6 @@ body {
 
 a {
     font-weight: bold;
-    font-style: italic;
     color: black;
     text-decoration: underline;
 }
@@ -26,11 +25,13 @@ a.special {
 }
 
 .content {
-    margin-left: 15%;
-    margin-right: 15%;
+    margin: 0 auto;
+    padding-left: 15%;
+    padding-right: 15%;
     margin-top: 1%;
     margin-bottom: 2%;
     min-height: calc(100% - 60px);
+    max-width: 70em;
     background-color: white;
 }
 
@@ -91,6 +92,8 @@ h2 {
     .content {
         margin-left: 1.5%;
         margin-right: 1.5%;
+        padding-left: 0;
+        padding-right: 0;
     }
 
     .header_title {
