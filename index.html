@@ -5,27 +5,6 @@
     <meta charset="UTF-8"/>
     <link rel="stylesheet" type="text/css" href="css/styles.css" />
     <meta content="width=device-width, initial-scale=1" name="viewport" />
-    <script>
-        let isTimerRunning = false;
-        function copyEmAddr(element_id) {
-            if (!isTimerRunning) {
-                isTimerRunning = true;
-                let a = ["a", "n", "d", "r", "e", "u"];
-                let b = ["s", "a", "n", "t", "a", "r", "e", "n"];
-                let c = ["g", "m", "a", "i", "l"];
-                let d = ["c", "o", "m"]
-                let z = a.join("") + "." + b.join("") + String.fromCharCode(64) + c.join("") + "." + d.join("");
-                navigator.clipboard.writeText(z);
-                document.getElementById(element_id).textContent = "Copied!";
-                setInterval((element_id) => {
-                    document.getElementById(element_id).textContent = "email";
-                    isTimerRunning = false;
-                }, 5000, element_id);
-            } else {
-                console.log("Timer still running!");
-            }
-        }
-    </script>
 </head>
 <body>
     <section class="content">
@@ -34,7 +13,7 @@
         </div>
         <div class="content_center body_section">
             <div>
-                <a class="special" href="https://github.com/asllop">github</a> <a class="special" href="https://mastodont.cat/@asllop">mastodon</a> <a class="special" href="javascript:copyEmAddr('addr_tag');" id="addr_tag">email</a>
+                <a class="special" href="https://github.com/asllop">github</a> <a class="special" href="https://mastodont.cat/@asllop">mastodon</a> <a class="special" href="email.html">email</a>
             </div>
         </div>
         <div class="body_section">
@@ -101,7 +80,8 @@
 
             <h2>## About this page</h2>
 
-            This page is hosted on <a href="https://github.com/asllop/asllop.github.io">GitHub Pages</a> and written in plain HTML, CSS and (few) JS with <a href="https://vscodium.com/">VSCodium</a>.<br>
+            This page is hosted on <a href="https://github.com/asllop/asllop.github.io">GitHub Pages</a> and written in plain HTML and CSS with
+	    <a href="https://www.gnu.org/software/emacs/">Emacs</a>.
             No cookies, and no trackers used.
         </div>
     </section>
